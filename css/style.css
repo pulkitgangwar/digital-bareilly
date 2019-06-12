@@ -299,6 +299,7 @@ header.theme-menu-wrapper.menu-style-two #mega-menu-wrapper .nav .login-button a
   position: absolute;
   background: #337ab7;
   border-radius: 2.5px;
+  top:25px;
   left:0;
   bottom: 0;
   z-index: -1;
@@ -355,7 +356,7 @@ header.theme-menu-wrapper #mega-menu-wrapper .nav>li>a:before,
   left:0;
   z-index: -1;
 }
-header.theme-menu-wrapper #mega-menu-wrapper .nav>li>a:before {top:17px;}
+header.theme-menu-wrapper #mega-menu-wrapper .nav>li>a:before {top:25px;}
 #mega-menu-wrapper .nav>li.dropdown-holder .sub-menu li a:before {bottom: 14px;}
 header.theme-menu-wrapper #mega-menu-wrapper .nav>li.active>a:before,
 header.theme-menu-wrapper #mega-menu-wrapper .nav>li:hover>a:before,
@@ -674,7 +675,7 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
   width: 97%;
   height: 7px;
   position: absolute;
-  background: #2874A6;
+  /* background: #2874A6; */
   border-radius: 2.5px;
   left:3px;
   bottom: 17px;
