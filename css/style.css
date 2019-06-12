@@ -2988,3 +2988,6 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {p
 }
 .related-product-slider .item {margin: 0 15px;}
 .related-product-slider .item .single-product {margin-bottom: 40px;}
+.clearfix .marginset{
+  margin-bottom:60px;
+}
