@@ -14,7 +14,7 @@
     <!-- iOS Safari -->
     <meta name="apple-mobile-web-app-status-bar-style" content="#2c2c2c" />
 
-    <title>Contact</title>
+    <title>Contact Digital Bareilly - We help get your business online!</title>
 
     <!-- Favicon -->
     <link
@@ -100,15 +100,15 @@
                     <a href="index.html" class="tran3s">Home</a>
                   </li>
                   <li class=" menu-list">
-                    <a href="index.html" class="tran3s">About Us</a>
+                    <a href="index.html#about" class="tran3s">About Us</a>
                   </li>
 
-                  <li><a href="index.html">Portfolio</a></li>
+                  <li><a href="index.html#portfolio">Portfolio</a></li>
                   <li>
-                    <a href="index.html">Pricing</a>
+                    <a href="index.html#pricing">Pricing</a>
                   </li>
                   <li class="active">
-                    <a href="contact.html">Contact Us</a>
+                    <a href="#">Contact Us</a>
                   </li>
                 </ul>
               </div>
@@ -150,7 +150,8 @@
             <div class="col-lg-7 col-md-6 col-xs-12">
               <div class="contact-us-form">
                 <form
-                  action="inc/sendemail.php"
+                  method="POST"
+                  data-netlify="true"
                   class="form-validation"
                   autocomplete="off"
                 >
@@ -158,6 +159,11 @@
                     type="email"
                     placeholder="Email Address*"
                     name="email"
+                  />
+                  <input
+                    type="tel"
+                    placeholder="Mobile Number*"
+                    name="mobile"
                   />
                   <input type="text" placeholder="Subject*" name="sub" />
                   <textarea
@@ -175,7 +181,7 @@
                 <h2>
                   Don’t Hesitate to contact with us for any kind of information
                 </h2>
-                <a href="tel:9149297567" class="tran3s">9149297567</a>
+                <a href="tel:9149297567" class="tran3s">+91 9149297567</a>
                 <ul>
                   <li>
                     <a
@@ -203,34 +209,39 @@
           </div>
           <!-- /.row -->
         </div>
-        <!-- /.conatiner -->
-
-        <!--Contact Form Validation Markup -->
-        <!-- Contact alert -->
-        <div class="alert-wrapper" id="alert-success">
-          <div id="success">
-            <button class="closeAlert">
-              <i class="fa fa-times" aria-hidden="true"></i>
-            </button>
-            <div class="wrapper">
-              <p>Your message was sent successfully.</p>
-            </div>
-          </div>
-        </div>
-        <!-- End of .alert_wrapper -->
-        <div class="alert-wrapper" id="alert-error">
-          <div id="error">
-            <button class="closeAlert">
-              <i class="fa fa-times" aria-hidden="true"></i>
-            </button>
-            <div class="wrapper">
-              <p>Sorry!Something Went Wrong.</p>
-            </div>
-          </div>
-        </div>
-        <!-- End of .alert_wrapper -->
+        <!-- /.container -->
       </div>
       <!-- /.contact-us -->
+      <!-- 
+			=============================================
+				Footer
+			============================================== 
+      -->
+      <footer class="bg-one">
+        <div
+          data-pro-badge-shopper-uuid="73de5ea4-acfe-4cbc-826b-6e34d722fb2a"
+          data-pro-badge-mode="light"
+          style="width:200px;"
+          data-pro-badge-init="true"
+        >
+          <a
+            href="https://godaddy.pro/u/73de5ea4-acfe-4cbc-826b-6e34d722fb2a"
+            target="_blank"
+            ><img
+              src="https://godaddy.pro/pro/api/v1/MemberBadge_light.b0f36b9d88ca9a48b9b4a5ba08c2be30.svg"
+              title="GoDaddy Pro"
+          /></a>
+        </div>
+        <div class="container">
+          <div class="bottom-footer clearfix">
+            <p class="float-center">
+              &copy; 2019
+              <a href="#" class="tran3s p-color">Digital Bareilly</a>. All
+              rights reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
 
       <!-- Js File_________________________________ -->
 
@@ -273,24 +284,6 @@
         type="text/javascript"
         src="vendor/jquery.ripples-master/dist/jquery.ripples-min.js"
       ></script>
-      <!-- Validation -->
-      <script
-        type="text/javascript"
-        src="vendor/contact-form/validate.js"
-      ></script>
-      <script
-        type="text/javascript"
-        src="vendor/contact-form/jquery.form.js"
-      ></script>
-      <!-- Google map js -->
-      <script
-        async
-        defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZ8VrXgGZ3QSC-0XubNhuB2uKKCwqVaD0&callback=googleMap"
-        type="text/javascript"
-      ></script>
-      <!-- Gmap Helper -->
-      <script src="vendor/gmaps.min.js"></script>
 
       <!-- Theme js -->
       <script type="text/javascript" src="js/theme.js"></script>
